@@ -356,6 +356,9 @@ if (word === 0 && plays >0 ){
 				if ( k === planets[3][0]){
 				earth = document.getElementById("b1");
 				earth.innerHTML = k.toUpperCase();
+				earth = document.getElementById("b6");
+				earth.innerHTML =k.toUpperCase();
+
 				//an2=document.getElementById("b1").textContent;
 				console.log("this is " + an2);
 				length = (document.getElementById("b1").innerText).length;
@@ -368,6 +371,8 @@ if (word === 0 && plays >0 ){
 				}
 				else if ( k === "e"){
 				earth = document.getElementById("b2");
+				earth.innerHTML =k.toUpperCase();
+				earth = document.getElementById("b7");
 				earth.innerHTML =k.toUpperCase();
 				//an2+=document.getElementById("b2").textContent;
 				console.log("this is " + an2);
@@ -425,36 +430,8 @@ if (word === 0 && plays >0 ){
 				answers.push(k)
 								
 				}
-				else if ( k === "n"){
-				earth = document.getElementById("b6");
-				earth.innerHTML =k.toUpperCase();
-				//an2+=document.getElementById("b6").textContent;
-				console.log("this is " + an2);
-				length = (document.getElementById("b6").innerText).length;
-				console.log(length);
-				score=score+length;
-				document.getElementById("score").innerHTML =  "Your Score: " + score;
-				console.log(k);
-				console.log(answers.slice(-1));
-				console.log(score);	
-				answers.push(k)
-								
-				}
-				else if ( k === "e"){
-				earth = document.getElementById("b7");
-				earth.innerHTML =k.toUpperCase();
-				//an2+=document.getElementById("b7").textContent;
-				console.log("this is " + an2);
-				length = (document.getElementById("b7").innerText).length;
-				console.log(length);
-				score=score+length;
-				document.getElementById("score").innerHTML =  "Your Score: " + score;
-				console.log(k);
-				console.log(answers.slice(-1));
-				console.log(score);	
-				answers.push(k)
-								
-				}
+				
+				
 				
 				
 			}
@@ -847,6 +824,9 @@ if (word === 0 && plays >0 ){
 				else if ( k === "r"){
 				earth = document.getElementById("b3");
 				earth.innerHTML =k.toUpperCase();
+				earth = document.getElementById("b6");
+				earth.innerHTML =k.toUpperCase();
+
 				//an2+=document.getElementById("b3").textContent;
 				console.log("this is " + an2);
 				length = (document.getElementById("b3").innerText).length;
@@ -889,21 +869,7 @@ if (word === 0 && plays >0 ){
 				answers.push(k)
 								
 				}
-				else if ( k === "r"){
-				earth = document.getElementById("b6");
-				earth.innerHTML =k.toUpperCase();
-				//an2+=document.getElementById("b6").textContent;
-				console.log("this is " + an2);
-				length = (document.getElementById("b6").innerText).length;
-				console.log(length);
-				score=score+length;
-				document.getElementById("score").innerHTML =  "Your Score: " + score;
-				console.log(k);
-				console.log(answers.slice(-1));
-				console.log(score);	
-				answers.push(k)
-								
-				}
+				
 				else if ( k === "y"){
 				earth = document.getElementById("b7");
 				earth.innerHTML =k.toUpperCase();
