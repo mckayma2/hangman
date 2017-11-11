@@ -1,0 +1,90 @@
+body{
+background-color:grey;
+background-image: url("../img/planets.jpg");
+background-size: cover;
+width:80%;
+margin: 0 auto;
+
+}
+
+#b1, #b2 , #b3 , #b4 , #b5 , #b6 , #b7 , #b8{
+display:inline;
+font-size:55px;
+color: #cc5500;
+margin:1 auto;
+text-shadow: 3px 3px 8px yellow;
+}
+h2{
+color:orange;
+margin:0 auto;
+width:100%;
+text-align:center;
+font-size: 30px;
+text-shadow: 3px 3px 8px grey;
+
+}
+
+h1{
+color:orange;
+
+padding:25px;
+width:100%;
+text-align:center;
+
+font-size: 80px;
+text-shadow: 3px 3px 8px #39FF14;
+
+margin:0 auto;
+}
+
+#container{
+width:80%;
+text-align:center;
+
+font-size: 80px;
+margin:0 auto;
+position:relative;
+
+}
+#row{
+width:80%;
+text-align:center;
+background-color:black;
+font-size: 80px;
+margin:0 auto;
+position:relative;
+
+}
+
+#score{
+background-color:rgba(0,0,255,0.3);
+padding: 10%;
+width:28%;
+font-size:25px;
+color:#cc5500;
+position:absolute;
+left:0;
+top:0;
+border: 2px solid green;
+
+}
+#plays{
+background-color:rgba(0,255,0,0.3);
+padding: 10%;
+width:28%;
+font-size:25px;
+color:#cc5500;
+position:absolute;
+right:0;
+top:0;
+border: 2px solid yellow;
+#image{
+position:relative;
+margin:0 auto;
+width:80%:
+
+}
+
+
+
+
