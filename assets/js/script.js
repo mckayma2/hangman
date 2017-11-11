@@ -7,6 +7,7 @@ console.log (randomWord);
 var answers = [];
 var word = randomNumber;
 var earth;
+var earth2;
 var i = 0;
 var plays = 10;
 var score =0;
@@ -356,8 +357,8 @@ if (word === 0 && plays >0 ){
 				if ( k === planets[3][0]){
 				earth = document.getElementById("b1");
 				earth.innerHTML = k.toUpperCase();
-				earth = document.getElementById("b6");
-				earth.innerHTML =k.toUpperCase();
+				earth2 = document.getElementById("b6");
+				earth2.innerHTML =k.toUpperCase();
 
 				//an2=document.getElementById("b1").textContent;
 				console.log("this is " + an2);
@@ -587,8 +588,8 @@ if (word === 0 && plays >0 ){
 				if ( k === planets[5][0]){
 				earth = document.getElementById("b1");
 				earth.innerHTML = k.toUpperCase();
-				earth = document.getElementById("b5");
-				earth.innerHTML =k.toUpperCase();
+				earth2 = document.getElementById("b5");
+				earth2.innerHTML =k.toUpperCase();
 				//an2=document.getElementById("b1").textContent;
 				console.log("this is " + an2);
 				length = (document.getElementById("b1").innerText).length;
@@ -824,8 +825,8 @@ if (word === 0 && plays >0 ){
 				else if ( k === "r"){
 				earth = document.getElementById("b3");
 				earth.innerHTML =k.toUpperCase();
-				earth = document.getElementById("b6");
-				earth.innerHTML =k.toUpperCase();
+				earth2 = document.getElementById("b6");
+				earth2.innerHTML =k.toUpperCase();
 
 				//an2+=document.getElementById("b3").textContent;
 				console.log("this is " + an2);
