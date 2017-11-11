@@ -373,8 +373,8 @@ if (word === 0 && plays >0 ){
 				else if ( k === "e"){
 				earth = document.getElementById("b2");
 				earth.innerHTML =k.toUpperCase();
-				earth = document.getElementById("b7");
-				earth.innerHTML =k.toUpperCase();
+				earth2 = document.getElementById("b7");
+				earth2.innerHTML =k.toUpperCase();
 				//an2+=document.getElementById("b2").textContent;
 				console.log("this is " + an2);
 				length = (document.getElementById("b2").innerText).length;
